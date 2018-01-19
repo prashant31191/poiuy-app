@@ -14,7 +14,7 @@
         android:layout_margin="10dp"
         android:orientation="horizontal">
 
-        <com.quickblox.q_municate.ui.views.roundedimageview.RoundedImageView
+        <com.quickblox.poiuy.ui.views.roundedimageview.RoundedImageView
             style="@style/AvatarImageViewStyle.Common"
             android:id="@+id/photo_imageview"
             android:layout_width="@dimen/image_view_small_avatar_layout_width"

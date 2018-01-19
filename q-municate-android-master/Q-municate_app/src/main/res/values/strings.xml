@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Q-municate</string>
+    <string name="app_name">poiuy-app</string>
 
 
     <!-- ActionBar -->
@@ -53,7 +53,7 @@
 
     <!-- User Agreement -->
     <string name="user_agreement_title">User Agreement</string>
-    <string name="user_agreement_label">By clicking Tick, you agree to Q-municate\n<b><u>User Agreement</u></b></string>
+    <string name="user_agreement_label">By clicking Tick, you agree to poiuy-app\n<b><u>User Agreement</u></b></string>
 
 
     <!-- Forgot Password -->
@@ -185,7 +185,7 @@
     <string name="feedback_bug_type">Bug</string>
     <string name="feedback_improvement_type">Improvement</string>
     <string name="feedback_suggestion_type">Suggestion</string>
-    <string name="feedback_support_email">q-municate@quickblox.com</string>
+    <string name="feedback_support_email">poiuy-test@poiuy.com</string>
     <string name="feedback_choose_email_provider">Choose an email provider:</string>
     <string name="feedback_write_email">Write an Email</string>
 
@@ -193,7 +193,7 @@
     <!-- About -->
     <string name="about_title">About</string>
     <string name="about_version">Version %1$s</string>
-    <string name="about_vendor">&#169; 2017 QuickBlox</string>
+    <string name="about_vendor">&#169; 2017 poiuy</string>
     <string name="about_user_agreement">User Agreement</string>
 
 
@@ -223,8 +223,8 @@
     <string name="invite_friends_send">Send</string>
     <string name="invite_friends_select_all">Select All</string>
     <string name="invite_friends_choose_email_provider">Choose an email provider:</string>
-    <string name="invite_friends_subject_of_invitation">Q-municate</string>
-    <string name="invite_friends_body_of_invitation">Dear friend, use Q-municate application to reach me!\nDownload it here: http://q-municate.com/</string>
+    <string name="invite_friends_subject_of_invitation">poiuy-app</string>
+    <string name="invite_friends_body_of_invitation">Dear friend, use poiuy-app application to reach me!\nDownload it here: http://poiuy111.com/</string>
     <string name="invite_friends_fb_request_canceled">Request cancelled</string>
 
 

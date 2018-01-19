@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="db_name">q_municate.db</string>
+    <string name="db_name">poiuy.db</string>
     <integer name="db_version">8</integer>
 
 </resources>

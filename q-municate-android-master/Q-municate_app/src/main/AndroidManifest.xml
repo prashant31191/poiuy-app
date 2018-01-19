@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.quickblox.q_municate"
+    package="com.quickblox.poiuy"
     android:installLocation="preferExternal">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -40,14 +40,14 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name=".App"
+        android:name="com.quickblox.poiuy.App"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.activities.authorization.SplashActivity"
+            android:name="com.quickblox.poiuy.ui.activities.authorization.SplashActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait">
@@ -58,17 +58,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activities.authorization.LandingActivity"
+            android:name="com.quickblox.poiuy.ui.activities.authorization.LandingActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.authorization.LoginActivity"
+            android:name="com.quickblox.poiuy.ui.activities.authorization.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.authorization.SignUpActivity"
+            android:name="com.quickblox.poiuy.ui.activities.authorization.SignUpActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
@@ -78,82 +78,82 @@
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
-            android:name=".ui.activities.main.MainActivity"
+            android:name="com.quickblox.poiuy.ui.activities.main.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.settings.SettingsActivity"
+            android:name="com.quickblox.poiuy.ui.activities.settings.SettingsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.invitefriends.InviteFriendsActivity"
+            android:name="com.quickblox.poiuy.ui.activities.invitefriends.InviteFriendsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.feedback.FeedbackActivity"
+            android:name="com.quickblox.poiuy.ui.activities.feedback.FeedbackActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.profile.UserProfileActivity"
+            android:name="com.quickblox.poiuy.ui.activities.profile.UserProfileActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.call.CallActivity"
+            android:name="com.quickblox.poiuy.ui.activities.call.CallActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.chats.NewMessageActivity"
+            android:name="com.quickblox.poiuy.ui.activities.chats.NewMessageActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.chats.NewGroupDialogActivity"
+            android:name="com.quickblox.poiuy.ui.activities.chats.NewGroupDialogActivity"
             android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.chats.CreateGroupDialogActivity"
+            android:name="com.quickblox.poiuy.ui.activities.chats.CreateGroupDialogActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.chats.PrivateDialogActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ui.activities.chats.GroupDialogActivity"
+            android:name="com.quickblox.poiuy.ui.activities.chats.PrivateDialogActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.chats.GroupDialogDetailsActivity"
+            android:name="com.quickblox.poiuy.ui.activities.chats.GroupDialogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.quickblox.poiuy.ui.activities.chats.GroupDialogDetailsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.profile.MyProfileActivity"
+            android:name="com.quickblox.poiuy.ui.activities.profile.MyProfileActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.chats.AddFriendsToGroupActivity"
+            android:name="com.quickblox.poiuy.ui.activities.chats.AddFriendsToGroupActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.changepassword.ChangePasswordActivity"
+            android:name="com.quickblox.poiuy.ui.activities.changepassword.ChangePasswordActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.forgotpassword.ForgotPasswordActivity"
+            android:name="com.quickblox.poiuy.ui.activities.forgotpassword.ForgotPasswordActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.agreements.UserAgreementActivity"
+            android:name="com.quickblox.poiuy.ui.activities.agreements.UserAgreementActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.soundcloud.android.crop.CropImageActivity" />
         <activity
-            android:name=".ui.activities.about.AboutActivity"
+            android:name="com.quickblox.poiuy.ui.activities.about.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.activities.others.PreviewImageActivity"
+            android:name="com.quickblox.poiuy.ui.activities.others.PreviewImageActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ui.activities.location.MapsActivity"
+        <activity android:name="com.quickblox.poiuy.ui.activities.location.MapsActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.quickblox.ui.kit.chatmessage.adapter.media.video.ui.VideoPlayerActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
@@ -169,7 +169,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activities.others.ExitActivity"
+            android:name="com.quickblox.poiuy.ui.activities.others.ExitActivity"
             android:theme="@android:style/Theme.NoDisplay"
             android:autoRemoveFromRecents="true"/>
 
@@ -177,10 +177,16 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebookAppId"
             tools:replace="android:value"/>
-        <meta-data
+       <!-- <meta-data
             android:name="io.fabric.ApiKey"
             android:value="${fabricApiKey}"
-            tools:replace="android:value"/>
+            tools:replace="android:value"/>-->
+
+       <!-- <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="336684a672860d50a11e523f666fbee2d44cf069"
+            tools:replace="android:value"
+            />-->
         <meta-data
             android:name="com.quickblox.messages.TYPE"
             android:value="FCM" />
@@ -193,9 +199,9 @@
 
         <service
             android:name="com.quickblox.q_municate_core.service.QBService"
-            android:icon="@drawable/ic_launcher"/>
+            android:icon="@mipmap/ic_launcher"/>
         <service
-            android:name=".fcm.FcmPushListenerService">
+            android:name="com.quickblox.poiuy.fcm.FcmPushListenerService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -209,17 +215,17 @@
         </service>
 
         <receiver
-            android:name=".utils.broadcasts.NetworkChangeReceiver"
+            android:name="com.quickblox.poiuy.utils.broadcasts.NetworkChangeReceiver"
             android:label="NetworkChangeReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".utils.broadcasts.ChatMessageReceiver"
+            android:name="com.quickblox.poiuy.utils.broadcasts.ChatMessageReceiver"
             android:label="ChatMessageReceiver">
             <intent-filter>
-                <action android:name="q_municate.got_chat_message" />
+                <action android:name="poiuy.got_chat_message" />
             </intent-filter>
         </receiver>
 
@@ -231,13 +237,13 @@
             </intent-filter>
         </service>
 
-        <service android:name="com.quickblox.q_municate.service.SessionJobService"
+        <service android:name="com.quickblox.poiuy.service.SessionJobService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
             </intent-filter>
         </service>
-        <service android:name=".service.CallService" />
+        <service android:name="com.quickblox.poiuy.service.CallService" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -252,6 +258,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
 
     </application>
 

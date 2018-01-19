@@ -1,23 +1,23 @@
 buildscript {
     repositories {
-        maven { url 'https://maven.fabric.io/public' }
+      //  maven { url 'https://maven.fabric.io/public' }
         mavenCentral()
     }
 
     dependencies {
-        classpath 'io.fabric.tools:gradle:1.+'
+        //classpath 'io.fabric.tools:gradle:1.+'
         classpath 'com.backelite:android-variantSelector-gradle-plugin:1.0'
     }
 }
 
 apply plugin: 'com.android.application'
-apply plugin: 'io.fabric'
+//apply plugin: 'io.fabric'
 apply plugin: 'com.backelite.android.variantSelector'
 
 repositories {
     maven { url 'https://dl.bintray.com/drummer-aidan/maven' }
     maven { url "https://jitpack.io" }
-    maven { url 'https://maven.fabric.io/public' }
+   // maven { url 'https://maven.fabric.io/public' }
 }
 
 android {
@@ -25,7 +25,7 @@ android {
     buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.quickblox.q_municate"
+        applicationId "com.quickblox.poiuy"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode rootProject.versionCode
@@ -49,7 +49,7 @@ android {
         release {
             minifyEnabled false
             debuggable false
-            ext.enableCrashlytics = true
+           // ext.enableCrashlytics = true
             signingConfig signingConfigs.release
             buildConfigField "String", "APP_ID", prodAppID
             buildConfigField "String", "AUTH_KEY", prodAuthKey
@@ -60,7 +60,7 @@ android {
             buildConfigField "String", "FIREBASE_AUTH_PROJECT_ID", devFirebaseAuthProjectId
             resValue "string", "facebookAppId", prodFacebookAppID
             resValue "string", "sender_id", prodPushRegistrationAppID
-            manifestPlaceholders = [fabricApiKey:prodFabricApiKey]
+            //manifestPlaceholders = [fabricApiKey:prodFabricApiKey]
         }
 
         debug {
@@ -100,7 +100,7 @@ android {
             buildConfigField "String", "FIREBASE_AUTH_PROJECT_ID", devFirebaseAuthProjectId
             resValue "string", "facebookAppId", devFacebookAppID
             resValue "string", "sender_id", devPushRegistrationAppID
-            manifestPlaceholders = [fabricApiKey:devFabricApiKey]
+            //manifestPlaceholders = [fabricApiKey:devFabricApiKey]
         }
 
         custom {
@@ -113,7 +113,7 @@ android {
             buildConfigField "String", "FIREBASE_AUTH_PROJECT_ID", customFirebaseAuthProjectId
             resValue "string", "facebookAppId", customFacebookAppID
             resValue "string", "sender_id", customPushRegistrationAppID
-            manifestPlaceholders = [fabricApiKey:customFabricApiKey]
+            //manifestPlaceholders = [fabricApiKey:customFabricApiKey]
         }
     }
 }
@@ -145,9 +145,9 @@ dependencies {
     compile "com.timehop.stickyheadersrecyclerview:library:${rootProject.stickylistheadersRecyclerViewVersion}@aar"
     compile "com.rockerhieu.emojicon:library:${rootProject.emojiconVersion}"
     compile "com.soundcloud.android:android-crop:${rootProject.cropVersion}@aar"
-    compile('com.crashlytics.sdk.android:crashlytics:2.6.2@aar') {
+    /*compile('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
         transitive = true;
-    }
+    }*/
     compile project(path: ':q-municate_user_service')
     compile project(path: ':q-municate_auth_service')
     compile project(path: ':q-municate_user_cache')

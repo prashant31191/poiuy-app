@@ -9,7 +9,7 @@ public class CoreSharedHelper {
 
     public class Constants {
 
-        public static final String NAME = "Q-municate";
+        public static final String NAME = "poiuy-app";
 
         public static final String IMPORT_INITIALIZED = "import_initialized";
         public static final String FIRST_AUTH = "first_auth";

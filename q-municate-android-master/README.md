@@ -1,8 +1,8 @@
-# Q-municate 
-Q-municate is a code of a chat application with a wide range of communication features included (such as messaging, file transfer, push notifications, audio/video calls).
+# poiuy-app
+poiuy-app is a code of a chat application with a wide range of communication features included (such as messaging, file transfer, push notifications, audio/video calls).
 http://q-municate.com/
 
-We are happy to offer you a chat application out of the box. You can customize this application to on your needs (with attribution as stated in the license). QuickBlox is used for the backend http://quickblox.com. Find more information about Q-municate Android in our  [Developers section](http://quickblox.com/developers/Q-municate#Q-municate_Android)
+We are happy to offer you a chat application out of the box. You can customize this application to on your needs (with attribution as stated in the license). QuickBlox is used for the backend http://quickblox.com. Find more information about poiuy-app Android in our  [Developers section](http://quickblox.com/developers/poiuy-app#Q-municate_Android)
 
 ## Software Environment
 * The Android application runs on Android 4.2+ 
@@ -13,9 +13,9 @@ We are happy to offer you a chat application out of the box. You can customize t
 * The App uses Internet connection: 3G or Wi-Fi when available.
 
 
-Q-municate is a fully fledged chat application using the Quickblox API.
+poiuy-app is a fully fledged chat application using the Quickblox API.
 
-## Q-municate application uses following QuickBlox modules:
+## poiuy-app application uses following QuickBlox modules:
 * [Chat](http://quickblox.com/modules/chat)
 * [Users](http://quickblox.com/modules/users/)
 * [Content](http://quickblox.com/modules/content/) 
@@ -26,12 +26,12 @@ Q-municate is a fully fledged chat application using the Quickblox API.
 
 ## It includes features such as:
 
-* Free Calls and Messaging: In Q-municate, everything is free;
+* Free Calls and Messaging: In poiuy-app, everything is free;
 * File Transfer: Send Images to your friends and contacts;
 * Private / Group Chat: Enjoy private and group conversations with your contacts;
 * Facebook Registration: Use simple FB registration to fill in your profile and register account;
-* Friends Import: Q-municate will automatically connect you with your phone and Facebook contacts, who already use Q-municate. So there is no need to add your friends manually;
-* Offline Calls and Messages: Push notifications will inform you about missed chat messages and calls even, if you are offline. Don't worry, Q-municate will retrieve chat history during the next application use;
+* Friends Import: poiuy-app will automatically connect you with your phone and Facebook contacts, who already use poiuy-app. So there is no need to add your friends manually;
+* Offline Calls and Messages: Push notifications will inform you about missed chat messages and calls even, if you are offline. Don't worry, poiuy-app will retrieve chat history during the next application use;
 * Messages Statuses: Send, read, now typing;
 * Delete Chat History/Remove Contact and Chat: Clear private chat history or delete this chat at all.
 

@@ -12,7 +12,7 @@
         android:background="@color/gray"
         >
 
-        <com.quickblox.q_municate.ui.views.RTCGLVideoView
+        <com.quickblox.poiuy.ui.views.RTCGLVideoView
             android:id="@+id/opponentView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

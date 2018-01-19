@@ -9,7 +9,7 @@
     android:gravity="center_vertical|center_horizontal"
     android:layout_marginTop="@dimen/call_avatar_top_margin_plus_height_actionbar">
 
-    <com.quickblox.q_municate.ui.views.roundedimageview.RoundedImageView
+    <com.quickblox.poiuy.ui.views.roundedimageview.RoundedImageView
         style="@style/AvatarImageViewStyle.Common"
         android:id="@+id/avatar_imageview"
         android:layout_width="@dimen/image_view_small_avatar_layout_width"

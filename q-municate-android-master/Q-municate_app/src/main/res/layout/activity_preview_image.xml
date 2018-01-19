@@ -6,7 +6,7 @@
 
     <include layout="@layout/toolbar" />
 
-    <com.quickblox.q_municate.ui.views.TouchImageView
+    <com.quickblox.poiuy.ui.views.TouchImageView
         android:id="@+id/image_touchimageview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
