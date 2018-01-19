@@ -48,6 +48,11 @@ public class LandingActivity extends BaseAuthActivity {
         LoginActivity.start(LandingActivity.this);
         finish();
     }
+    @OnClick(R.id.signup_button)
+    void signup(View view) {
+        SignUpActivity.start(LandingActivity.this);
+        finish();
+    }
 
     @OnClick(R.id.phone_number_connect_button)
     void phoneNumberConnect(View view) {

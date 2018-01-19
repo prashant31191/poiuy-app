@@ -15,7 +15,9 @@ public class FlurryAnalyticsHelper {
     public static void pushAnalyticsData(Context context) {
         // init Flurry
         FlurryAgent.setLogEnabled(true);
-        FlurryAgent.init(context, "P8NWM9PBFCK2CWC8KZ59");
+
+        // my key XWY3TV6J44QKWDRJQQP4
+        FlurryAgent.init(context, "XWY3TV6J44QKWDRJQQP4"); // testing->P8NWM9PBFCK2CWC8KZ59---
 
         Map<String, String> params = new HashMap<>();
 

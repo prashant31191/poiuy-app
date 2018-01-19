@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.text.InputFilter;
 import android.text.Spanned;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -44,6 +45,7 @@ import rx.Subscriber;
 
 public class SignUpActivity extends BaseAuthActivity implements OnMediaPickedListener {
 
+    String TAG = this.getClass().getName().toString();
     private static final String FULL_NAME_BLOCKED_CHARACTERS = "<>;";
 
     @Bind(R.id.full_name_textinputlayout)
@@ -228,16 +230,17 @@ public class SignUpActivity extends BaseAuthActivity implements OnMediaPickedLis
         ServiceManager.getInstance().updateUser(user, image).subscribe(new Subscriber<QMUser>() {
             @Override
             public void onCompleted() {
-
+                Log.d(TAG, "onCompleted");
             }
 
             @Override
             public void onError(Throwable e) {
-
+                Log.d(TAG, "onError" + e.getMessage());
             }
 
             @Override
             public void onNext(QMUser qmUser) {
+                Log.d(TAG, "onNext");
                 appSharedHelper.saveFirstAuth(true);
                 appSharedHelper.saveSavedRememberMe(true);
                 startMainActivity(qmUser);
